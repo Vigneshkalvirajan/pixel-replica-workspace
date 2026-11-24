@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## AquaRisk data validation
+- Keep CSV parsing and the 124-numeric-feature checks in a pure shared module so the interface and tests use the same rules.
